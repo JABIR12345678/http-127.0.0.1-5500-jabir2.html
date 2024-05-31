@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jabir web</title>
+</head>
+<body>
+ <!--add audio-->
+ <audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+    </audio>
+    <!--make form-->
+<form action="#" method="post">
+First Name <br>
+<input type="text" placeholder="name">
+<br>
+Last Name <br>
+<input type="text" placeholder="name">
+<br>
+Gender:
+<input type="radio"> male
+<input type="radio"> female
+<input type="radio"> others
+<br>
+<!--if want to make one option-->
+Gender:
+<input type="radio" name="anything"> male
+<input type="radio" name="anything"> female
+<input type="radio" name="anything"> others
+<br>
+<input type="submit" value="send">
+</form>
+<br><br><br>
+<!--if want to make border-->
+<form>
+<fieldset>
+<legend>contact us</legend>
+First Name <br>
+<input type="text" placeholder="name">
+<br>
+Last Name <br>
+<input type="text" placeholder="name">
+<br>
+Gender:
+<input type="radio"> male
+<input type="radio"> female
+<input type="radio"> others
+<br>
+<!--if want to make one option-->
+Gender:
+<input type="radio" name="anything"> male
+<input type="radio" name="anything"> female
+<input type="radio" name="anything"> others
+<br>
+<input type="submit" value="send">
+</fieldset>
+</form>
+<br><br>
+<h1>chose your country</h1>
+<form>
+<select>
+<option>bangladesh</option>
+<option>india</option>
+<option selected>nepal</option>
+</select>
+<!--if want select more-->
+<br><br>
+<select multiple>
+    <option value="bangladeh">bangladesh</option>
+    <option value="india">india</option>
+    <option value="nepal">nepal</option>
+    </select>
+    <!--if want to show as many want-->
+    <select multiple size="2">
+        <option value="bangladeh">bangladesh</option>
+        <option value="india">india</option>
+        <option value="nepal">nepal</option>
+    </select>
+    <!--add text area with row and colum-->
+    <br><br>
+<textarea rows="20" cols="20" placeholder="enter your messege"></textarea>
+</form>
+<br><br>
+<form action="#" method="post">
+<h1 style="text-align: center;">SIGN UP</h1>
+<hr>
+<br>
+<label for="user">Name:</label>
+<input type="text" id="user" name="user" placeholder="user name">
+<br>
+<label for="email">email:</label>
+<input type="email" id="email" name="user mail"placeholder="email" required>
+<br>
+<label for="pass">Passward</label>
+<input type="password" id="pass" name="password" placeholder="passward">
+<br>
+<label for="phn">phone</label>
+<br>
+<select name="code">
+<option value="+880">+880</option>
+<option value="+111">+111</option>
+<option value="+990">+990</option>
+</select>
+<input type="number" id="phn" name="phone" placeholder="number" required>
+<br>
+<label for="">country:</label>
+<select name="slt" id="slt">
+    <option value="">chose country</option>
+    <option value="india1">india1</option>
+    <option value="india2">india2</option>
+</select>
+<br>
+Gender
+<input type="radio" id="Gen" name="Gender">
+<label for="Gen">male</label>
+<input type="radio" id="Gend" name="Gender">
+<label for="Gend">female</label>
+<br>
+<legend for="dob">date of birth:</legend>
+<input type="date" id="dob" name="date">
+<br>
+<label for="time">Time</label>
+<input type="time" id="time" name="Time">
+<br>
+<label for="color"> colors</label>
+<input type="color" id="color" name="color">
+<br>
+<label for="file">chose your pic</label>
+<input type="file" id="file" name="file">
+<br>
+<input type="checkbox" id="cb" name="cb">
+<label for="cb">i have a bike</label>
+<input type="checkbox" id="cd" name="cb">
+<label for="cd">i have a cycle</label>
+<br>
+<textarea name="comment" rows="20" cols="20">comment here</textarea>
+<br>
+<input type="submit" value="send">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
